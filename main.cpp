@@ -1,8 +1,8 @@
-#define IR_INPUT_PIN 3          // Definiere Input Pin für Infra Rot
-#define SERV_PIN 5              // Definiere Output Pin für Servo
-#define MOTOR_PIN_1 11          // Definiere 1. Pin für Motorsteuerung
-#define MOTOR_PIN_2 10          // Definiere 2. Pin für Motorsteuerung
-#define MOTOR_ENABLE_PIN 7      // Definiere Pin für MotorEnable H-Brücke
+#define IR_INPUT_PIN 3U          // Definiere Input Pin für Infra Rot
+#define SERV_PIN 5U              // Definiere Output Pin für Servo
+#define MOTOR_PIN_1 11U          // Definiere 1. Pin für Motorsteuerung
+#define MOTOR_PIN_2 10U          // Definiere 2. Pin für Motorsteuerung
+#define MOTOR_ENABLE_PIN 7U      // Definiere Pin für MotorEnable H-Brücke
 
 #include <Servo.h>              // Binde Servo.h Library ein
 #include <IRremote.h>           // Binde IRremote.h Library ein
